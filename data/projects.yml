@@ -3,21 +3,28 @@
 - name: 'FizzBuzz'
   github: https://github.com/johannaanden/FizzBuzz_JavaScript
   description: 'FizzBuzz application in Javascript'
+  image: "./images/fizz-buzz-js.jpg"
 - name: 'Web Development'
   github: https://github.com/johannaanden/tjejerkodar
-  description: 'Webpage that I created when I studied a Web Development course'
+  description: 'Webpage created in a WD-course'
+  image: "./images/webdevelop-course.jpg"
 - name: 'BMI Calculator'
   github: https://github.com/johannaanden/BMI_Challenge/tree/master/src
   description: 'Simple BMI calculator'
+  image: "./images/bmi-calculator.jpg"
 - name: 'Address book'
   github: https://github.com/johannaanden/address_book
   description: 'Address book created in JavaScript'
+  image: "./images/address-book.jpg"
 - name: 'Library application'
   github: https://github.com/johannaanden/library-challenge-master
   description: 'Library applicalication for a small library'
+  image: "./images/address-book.jpg"
 - name: 'ATM'
   github: https://github.com/johannaanden/atm_challenge
   description: 'ATM in ruby'
+  image: "./images/library.jpg"
 - name: 'FizzBuzz'
   github: https://github.com/johannaanden/fizz_buzz
   description: 'FizzBuzz in Ruby'
+  image: "./images/fizz-buzz.jpg"
