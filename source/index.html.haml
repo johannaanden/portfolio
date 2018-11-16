@@ -23,43 +23,16 @@
     %p My name is Johanna Andén, I am a student at Craft Academy where I study the course Full stack web developer.
     %br/ 
     %p When I'm not studying, I work at the TV and broadband provider Sappa in Gothenburg.
+    %br/
           
 .container-images
-  .imgbox
-    %img{:src => "./images/address-book.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
-  
-  .imgbox
-    %img{:src => "./images/atm.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
-  
-  .imgbox
-    %img{:src => "./images/bmi-calculator.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
-  
-.container-images
-  .imgbox
-    %img{:src => "./images/fizz-buzz-js.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
-  
-  .imgbox
-    %img{:src => "./images/fizz-buzz.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
-  
-  .imgbox
-    %img{:src => "./images/library.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
-  
-  .imgbox
-    %img{:src => "./images/webdevelop-course.jpg"}/
-    %h2 Diwali
-    %h3 With Lights
+  -data.projects.each do |project|
+    .imgbox
+      %img(src="#{project[:image]}" alt="no image")/
+      %h2="#{project[:name]}"
+      %h3="#{project[:description]}"
+      %a(href="#{project[:github]}")
+        %p Github repository
 
 .container-curriculum-vitae
   %div
