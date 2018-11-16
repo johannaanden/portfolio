@@ -8,7 +8,7 @@
   %button.open-button{:onclick => "openForm()"} CONTACT ME!
     
 #myForm.form-popup
-  %form.form-container{:action => "/action_page.php"}
+  %form.form-container{:method => "POST", :name => "contact", :netlify => ""}
     %h1 Contact
     %label{:for => "name"} Name
     %input#fname{:name => "name", :placeholder => "Your name..", :type => "text"}/
