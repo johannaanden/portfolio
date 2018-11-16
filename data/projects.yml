@@ -3,9 +3,9 @@
 - name: 'FizzBuzz'
   github: https://github.com/johannaanden/FizzBuzz_JavaScript
   description: 'FizzBuzz application in Javascript'
-- name: 'Webpage from Web Development course'
+- name: 'Web Development'
   github: https://github.com/johannaanden/tjejerkodar
-  description: 'This is a webpage that I created when I studied the Web Development course'
+  description: 'Webpage that I created when I studied a Web Development course'
 - name: 'BMI Calculator'
   github: https://github.com/johannaanden/BMI_Challenge/tree/master/src
   description: 'Simple BMI calculator'
