@@ -1,0 +1,86 @@
+%body
+  
+.container
+  %video#myVideo{:autoplay => "", :loop => "", :muted => ""}
+    %source{:src => "./images/bg_pink_1.mp4", :type => "video/mp4"}
+  %h1.top-left Johanna Andén
+  .center-item
+    %img{:alt => "Full stack web developer", :src => "./images/FS_WD.png"}/
+  
+#grad1.container-profile
+  %img.profile{:src => "./images/johanna.JPG"}/
+  .text-box
+    %h2 Hello!
+    %p My name is Johanna Andén, I am a student at Craft Academy where I study the course Full stack web developer.
+    %br/ 
+    %p When I'm not studying, I work at the TV and broadband provider Sappa in Gothenburg.
+          
+.container-images
+  .imgbox
+    %img{:src => "./images/address-book.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+  
+  .imgbox
+    %img{:src => "./images/atm.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+  
+  .imgbox
+    %img{:src => "./images/bmi-calculator.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+  
+.container-images
+  .imgbox
+    %img{:src => "./images/fizz-buzz-js.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+  
+  .imgbox
+    %img{:src => "./images/fizz-buzz.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+  
+  .imgbox
+    %img{:src => "./images/library.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+  
+  .imgbox
+    %img{:src => "./images/webdevelop-course.jpg"}/
+    %h2 Diwali
+    %h3 With Lights
+
+.container-curriculum-vitae
+  %div
+    %img.work-image{:src => "./images/gina_tricot.png"}/
+  %div
+    %img.work-image{:src => "./images/Sappa.png"}/
+  %div
+    %img.work-image{:src => "./images/ca.png"}/
+  %div
+    %img.work-image{:src => "./images/stuk.png"}/
+  
+.footer
+  %div
+    %p 070 26 00 608
+  %div
+    %p johannaanden@hotmail.com
+  %div
+    %p Transistorgatan 23, Västra Frölunda
+  %button.open-button{:onclick => "openForm()"} CONTACT ME!
+    
+#myForm.form-popup
+  %form.form-container{:action => "/action_page.php"}
+    %h1 Contact
+    %label{:for => "name"} Name
+    %input#fname{:name => "name", :placeholder => "Your name..", :type => "text"}/
+    %label{:for => "email"}
+      %b Email
+    %input{:name => "email", :placeholder => "Enter Email", :required => "", :type => "text"}/
+    %label{:for => "subject"} Message
+    %textarea#subject{:name => "subject", :placeholder => "Write something.."}
+    %button.btn{:type => "submit"} Send message
+    %button.btn.cancel{:onclick => "closeForm()", :type => "button"} CLOSE
+%script{:src => "./contact.js"}
