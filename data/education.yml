@@ -1,0 +1,12 @@
+- image: /../images/ca.png
+  period: "2018 October - 2019 February"
+  place: "Gothenburg"
+  description: "My journey to the Craft Academy was over a year long. In September 2017, Sappa was looking for a developer, without any prior knowledge, I announced that I was interested in the employment but clarified that I had no knowledge in the area. Even though I participated in the process until the end, I understood that I would not get the employment, so when I got the information that they had chosen another person I had already decided that I would start study. The problem was, however, that I was not really interested in putting 3 years in the school bench. Together with Sappa's IT Manager we discussed the possibilities of study courses for one year and then work as a developer at Sappa. 1 year was better than 3, but I wanted to do it faster. In the spring of 2018 I was in Stockholm over a weekend together with Tjejer Kodar and taught me the basics of HTML and CSS. I was then introduced to their boot camp Tecnigo. So when I started reviewing the possibilities of shortening my studies even more, I began to wonder if Tecnigo was a solution. The problem was only that they only exist in Stockholm. When I began to search for this, I came across the Craft Academy. When I didn’t got accepted at the college courses I had applied for, I needed a back up plan and then Craft Academy became the obvious choice. In the end got accepted at the college courses I had applied to, but that doesn’t matter, because I’m think Craft Academy is a much better option for me."
+- image: /../images/tjejer-kodar-logo.png
+  period: "2018, 6-8 April"
+  place: "Stockholm"
+  description: "Beginners course in web development. Created a portfolio page that also was published on the internet. We went through the best way to structure the website in HTML and then style it in CSS. We also went throught how to start a programming project and all the way to a published website on the internet."
+- image: /../images/hvitfeldtska.png
+  period: "2008 August - 2011 June"
+  place: "Gothenburg"
+  description: "High school - Trade program"
