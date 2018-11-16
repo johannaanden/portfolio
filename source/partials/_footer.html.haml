@@ -1,0 +1,22 @@
+.footer
+  %div
+    %p 070 26 00 608
+  %div
+    %p johannaanden@hotmail.com
+  %div
+    %p Transistorgatan 23, Västra Frölunda
+  %button.open-button{:onclick => "openForm()"} CONTACT ME!
+    
+#myForm.form-popup
+  %form.form-container{:action => "/action_page.php"}
+    %h1 Contact
+    %label{:for => "name"} Name
+    %input#fname{:name => "name", :placeholder => "Your name..", :type => "text"}/
+    %label{:for => "email"}
+      %b Email
+    %input{:name => "email", :placeholder => "Enter Email", :required => "", :type => "text"}/
+    %label{:for => "subject"} Message
+    %textarea#subject{:name => "subject", :placeholder => "Write something.."}
+    %button.btn{:type => "submit"} Send message
+    %button.btn.cancel{:onclick => "closeForm()", :type => "button"} CLOSE
+%script{:src => "./contact.js"}
