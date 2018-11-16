@@ -35,13 +35,27 @@
         %p Github repository
 
 .container-curriculum-vitae
-  %div
-    %img.work-image{:src => "./images/gina_tricot.png"}/
-  %div
-    %img.work-image{:src => "./images/Sappa.png"}/
-  %div
-    %img.work-image{:src => "./images/ca.png"}/
-  %div
-    %img.work-image{:src => "./images/stuk.png"}/
+  %button#myBtn CURRUCULUM VITAE
+  #myModal.modal
+    .modal-content
+      %span.close ×
+
+      %h1 Work experience
+      -data.work.each do |project|
+        %img(src="#{project[:image]}" alt="no image")/
+        %p="#{project[:period]}"
+        %p="#{project[:place]}"
+        %p="#{project[:description]}"
+        %br/
+      
+      %h1 Education
+      -data.education.each do |project|
+        %img(src="#{project[:image]}" alt="no image")/
+        %p="#{project[:period]}"
+        %p="#{project[:place]}"
+        %p="#{project[:description]}"
+        %br/
+
+%script{:src => "./javascripts/cv.js"}
 
 = partial 'partials/footer'
