@@ -50,3 +50,7 @@
   github: https://github.com/johannaanden/CARdnd
   description: 'Car rental site'
   image: "./images/cardnd.jpg"
+- name: 'BMI Calculator'
+  github: https://github.com/johannaanden/bmi-challenge
+  description: 'BMI Calculator - Mobile application'
+  image: "./images/bmi.jpg"
