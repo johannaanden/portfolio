@@ -26,3 +26,7 @@
   github: https://github.com/johannaanden/fizz_buzz
   description: 'FizzBuzz in Ruby'
   image: "./images/fizz-buzz.jpg"
+- name: 'Blog'
+  github: https://github.com/johannaanden/Blog_rails
+  description: 'Blog applicalication in rails'
+  image: "./images/blog.jpg"
