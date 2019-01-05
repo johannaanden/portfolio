@@ -46,3 +46,7 @@
   github: https://github.com/johannaanden/address-book
   description: 'Address book created in Angular'
   image: "./images/addressbook.jpg"
+- name: 'Car DnD'
+  github: https://github.com/johannaanden/CARdnd
+  description: 'Car rental site'
+  image: "./images/cardnd.jpg"
