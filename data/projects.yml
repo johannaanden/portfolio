@@ -30,3 +30,7 @@
   github: https://github.com/johannaanden/Blog_rails
   description: 'Blog applicalication in rails'
   image: "./images/blog.jpg"
+- name: 'Foodify'
+  github: https://github.com/johannaanden/slowfood-oct18-team2
+  description: 'Food ordering system'
+  image: "./images/foodify.jpg"
