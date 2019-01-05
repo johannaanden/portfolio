@@ -42,3 +42,7 @@
   github: https://github.com/johannaanden/RPS
   description: 'Rock paper scissor game in Javascript'
   image: "./images/rps.jpg"
+- name: 'Address book'
+  github: https://github.com/johannaanden/address-book
+  description: 'Address book created in Angular'
+  image: "./images/addressbook.jpg"
