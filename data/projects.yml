@@ -38,3 +38,7 @@
   github: https://github.com/johannaanden/rails_messaging_oct_18_team2
   description: 'Mailbox application'
   image: "./images/mail.jpg"
+- name: 'RPS'
+  github: https://github.com/johannaanden/RPS
+  description: 'Rock paper scissor game in Javascript'
+  image: "./images/rps.jpg"
