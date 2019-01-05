@@ -34,3 +34,7 @@
   github: https://github.com/johannaanden/slowfood-oct18-team2
   description: 'Food ordering system'
   image: "./images/foodify.jpg"
+- name: 'Mailbox'
+  github: https://github.com/johannaanden/rails_messaging_oct_18_team2
+  description: 'Mailbox application'
+  image: "./images/mail.jpg"
