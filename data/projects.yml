@@ -54,3 +54,7 @@
   github: https://github.com/johannaanden/bmi-challenge
   description: 'BMI Calculator - Mobile application'
   image: "./images/bmi.jpg"
+- name: 'Cooper challenge'
+  github: https://github.com/johannaanden/cooper_client
+  description: 'Fitness test Cooper challenge - Mobile application'
+  image: "./images/cooper.jpg"
